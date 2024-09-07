@@ -18,9 +18,13 @@ body{
     color: white;
     padding: 5px 110px;
     margin:0 475px;
-    min-width: 800px;
+    min-width: 900px;
    
    
+}
+header h2{
+    font-family: sans-serif;
+    font-size: 15px;
 }
 ul {
     list-style: none;
@@ -34,16 +38,26 @@ color: #e5e7eb;
 flex: flex-end;
 }
 
- ul,header{
+  ul ,header{
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
     gap: 15px;
     margin-bottom: 25px;
-    
- 
- }
+    align-items: center;
+}
 
+.hero-div{
+    display: column;
+    border-color: #e5e7eb;
+}
+.hero-div button{
+color: #e5e7eb;
+}
+.hero-div p{
+    color: #9ca3af;
+    font-family: sans-serif;
+}
  header img{
     max-width: 50px;
  }
@@ -66,7 +80,7 @@ flex: flex-end;
  }
 
  img{
-max-width: 130px;
+max-width: 170px;
 height: auto;
 margin: 10px;
 gap: padding 12px;
@@ -77,7 +91,7 @@ gap: padding 12px;
     font-size: 24px;
     font-weight: 900;
  }
- p,.nav-list a{
+ .nav-list p a{
     font-size: 8px;
     color: #9ca3af;
     font-family:sans-serif;
@@ -88,9 +102,9 @@ gap: padding 12px;
     margin-top:5px;
 }
 .two  {
-    padding: 5px 110px;
+    padding: 35px 110px;
     margin:0 475px;
-    min-width: 900px;
+    min-width: 800px;
     /* border: #1f2937 solid ; */
    text-align: center;
   
@@ -124,3 +138,62 @@ gap: padding 12px;
     
 
 }
+.three{
+    padding: 35px 110px;
+    margin:0 475px;
+    min-width: 800px;
+    /* border: #1f2937 solid ; */
+   text-align: center;
+   background: #e5e7eb;
+   
+}
+
+
+.three p{
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 20px 60px;
+    color: #003366;
+
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: #1f2937;
+    min-width: 800px;
+    color: #e5e7eb;
+}
+ .four{
+   
+    /* border: solid black; */
+    background: white;
+    color: #e5e7eb;
+    padding: 45px 110px;
+    margin:0 475px;
+    min-width: 800px;
+   
+   
+ }
+ .four-A{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 16px 75px;
+    border-radius: 10px;
+    font-size: 12px;
+    align-items: center;
+    gap: 25px;
+
+ }
+
+ .four-A button {
+    border-radius: 8px;
+    background: #3882f6;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    width: 100px;
+    height: 31px;
+ }
