@@ -50,6 +50,7 @@ flex: flex-end;
 .hero-div{
     display: column;
     border-color: #e5e7eb;
+    
 }
 .hero-div button{
 color: #e5e7eb;
@@ -57,6 +58,7 @@ color: #e5e7eb;
 .hero-div p{
     color: #9ca3af;
     font-family: sans-serif;
+    font-size: 12px;
 }
  header img{
     max-width: 50px;
@@ -73,13 +75,14 @@ color: #e5e7eb;
 
  .main{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 25px;
+    gap: 30px;
     
  }
 
- img{
+ .two img{
 max-width: 170px;
 height: auto;
 margin: 10px;
@@ -170,7 +173,7 @@ footer{
    
     /* border: solid black; */
     background: white;
-    color: #e5e7eb;
+    color: white;
     padding: 45px 110px;
     margin:0 475px;
     min-width: 800px;
@@ -192,8 +195,12 @@ footer{
  .four-A button {
     border-radius: 8px;
     background: #3882f6;
-    color: #e5e7eb;
-    border-color: #e5e7eb;
+    color: white;
+    border-color: white;
     width: 100px;
     height: 31px;
  }
+.main img{
+min-width: 250px;
+max-height: 150px;
+}
